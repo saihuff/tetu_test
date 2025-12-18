@@ -16,7 +16,7 @@ simpleApp req respond = do
 
 main :: IO ()
 main = do
-    let port = 3000 -- とりあえずポート3000番で。
+    let port = 8080 -- とりあえずポート3000番で。
     let setting = Warp.setPort port Warp.defaultSettings
     putStrLn $ "start server port=" ++ show port
     Warp.runSettings setting simpleApp
