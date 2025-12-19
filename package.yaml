@@ -25,6 +25,8 @@ dependencies:
 - wai
 - http-types
 - bytestring
+- text
+- time
 ghc-options:
 - -Wall
 - -Wcompat
